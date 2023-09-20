@@ -1,0 +1,11 @@
+.HeaderContainer {
+  display: flex;
+  align-items: center;
+  padding: 15px 70px;
+  background-color: #f1f5f9;
+}
+
+.HeaderImage {
+  height: 50px;
+  width: 160px;
+}

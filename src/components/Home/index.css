@@ -1,0 +1,79 @@
+.LoaderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.AppContainer {
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.Heading {
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: bold;
+  color: #1e293b;
+  padding-left: 70px;
+}
+
+.CourseListContainer {
+  list-style: none;
+  padding-left: 70px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.FailureContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.FailureImg {
+  width: 450px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 567px) {
+  .FailureImg {
+    width: 90%;
+  }
+}
+
+.FailureHeading {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 567px) {
+  .FailureHeading {
+    font-size: 20px;
+  }
+}
+
+.FailureText {
+  font-family: 'Roboto';
+  color: #64748b;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 567px) {
+  .FailureText {
+    font-size: 13px;
+  }
+}
+
+.FailureButton {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #4656a1;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 10px 20px;
+}

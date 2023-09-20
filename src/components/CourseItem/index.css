@@ -1,0 +1,29 @@
+.CourseLogo {
+  height: 45px;
+  width: 40px;
+  margin-right: 20px;
+  transition: 0.5s;
+}
+
+.CourseItemList {
+  display: flex;
+  align-items: center;
+  margin-right: 70px;
+  margin-bottom: 50px;
+  width: 180px;
+  cursor: pointer;
+}
+
+.CourseItemList:hover .CourseLogo {
+  transform: scale(1.1);
+}
+
+.CourseName {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  color: #1e293b;
+}
+.link {
+  text-decoration: none;
+}

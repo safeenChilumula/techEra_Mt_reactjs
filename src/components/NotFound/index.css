@@ -1,0 +1,42 @@
+.NotFoundContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.NotFoundImage {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  width: 450px;
+}
+
+@media screen and (max-width: 567px) {
+  .NotFoundImage {
+    width: 90%;
+  }
+}
+.NotFoundHeading {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 567px) {
+  .NotFoundHeading {
+    font-size: 20px;
+  }
+}
+
+.NotFoundText {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #64748b;
+}
+
+@media screen and (max-width: 567px) {
+  .NotFoundText {
+    font-size: 15px;
+  }
+}
